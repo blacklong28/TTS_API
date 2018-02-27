@@ -1,0 +1,19 @@
+============================================================
+Time  2017/08/08 17:07:15 156 
+============================================================
+[2017/08/08 17:07:15 156] ivw        420  ivw loaded!  
+[2017/08/08 17:07:15 156] ivw        408  SYS_MSG_REGCB  msp_status_cb  func(6c006d00) 
+[2017/08/08 17:07:15 156] ivw        375  IVW_MSG_SSB  
+[2017/08/08 17:07:15 156] ivw        230  ssb:  ivw_threshold=0:-10;1:-10;2:-10,sst=wakeup  
+[2017/08/08 17:07:15 156] ivw        248  net_type:  standard  
+[2017/08/08 17:07:15 157] ivw        408  SYS_MSG_REGCB  MsgProcCallBack  func(6c008c00) 
+[2017/08/08 17:07:15 157] ivw        134  ivwMessageCallBack  2  25000  nil  nil  
+[2017/08/08 17:07:15 157] ivw        96   ivw.proc_ret  25000  
+[2017/08/08 17:07:15 157] ivw        86   MsgProcCallBack  2  25000  nil  
+[2017/08/08 17:07:15 210] ivw        383  IVW_MSG_AUW  
+[2017/08/08 17:07:15 210] ivw        331  auw:  udata(6c008e28) 4  
+[2017/08/08 17:07:15 210] ivw        395  IVW_MSG_SSE  
+[2017/08/08 17:07:15 210] ivw        358  ivw.sse ivw  
+[2017/08/08 17:07:15 210] ivw        214  local_plog_process  
+[2017/08/08 17:07:15 210] ivw        176  collect_plog_data  
+[2017/08/08 17:07:15 214] ivw        403  SYS_MSG_UNLOAD  

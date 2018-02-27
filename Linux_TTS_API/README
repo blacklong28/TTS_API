@@ -1,0 +1,33 @@
+﻿README for Linux_TTS_API
+-----------------------
+
+更新日志：
+当前最新20170803，
+历史更新20170622.
+
+
+
+1、讯飞官网下载SDK
+--1.1、登录后，进入语音唤醒产品界面，选择加强型进行体验购买，选择新建应用（linux平台）。
+--1.2、制作语音唤醒词，并下载相关体验sdk。
+--1.3、分别在新建的应用中添加 离线命令词识别、离线语音合成 服务，分别下载好SDK。
+2、分别从三个sdk中取出/bin/msc/下的资源文件，取出语音唤醒sdk下的/libs/x64/下的libmsc.so放在本工程下的/lib/x64下替换原来的文件。
+3、替换代码中的appid，主要有三处，tts、asr、awake。
+4、准备编译，清除系统编译环境中/lib/下的libmsc.so、libtts.so。
+5、开始编译，执行/samples/asr_tts_awake/下的64bit_make.sh脚本，生成库文件在/bin/下的libtts.so。
+6、提供API，将msc资源文件放在Test_API下的/bin/下替换原来的msc资源文件，将生成的libtt.so和下载的libmsc.so库文件放在Test_API中的/libs/x64/路径下。
+7、使用本API
+--7.1、将/bin/msc/文件夹放在需要使用本API的可执行文件的同级目录下。
+--7.2、将两个so文件加入到编译环境，将提供的头文件引入。
+
+
+8、三方库：
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 
+	libasound.so.2 => /usr/lib/x86_64-linux-gnu/libasound.so.2 
+asound库文件在libs/路径下提供了三个，放在/usr/lib/x86_64-linux-gnu/下即可
+apt-get install libasound2-dev
+
+
+
+

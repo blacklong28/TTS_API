@@ -1,0 +1,19 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar goto;
+!slot <want>;
+!slot <visitpre>;
+!slot <visitsuf>;
+!slot <place>;
+!slot <lanmode>;
+!slot <lanset>;
+
+!start <gotostart>;
+<gotostart>:[<want>]<visit>|<lanset><lanmode>|<lanmode><lanset>;
+<want>:我想|我要|带我|帮我|我想要|请带我;
+<visit>:<visitpre><place>[群][展厅]|[去][前往]<place>[群][展厅]<visitpre>;
+<visitpre>:了解|看一下|参观|了解一下|去|参观一下|进行参观;
+<place>:
+公司简介大厅!id(01)|技术博物馆!id(02)|汽车展厅!id(03);
+
+<lanmode>:你好!id(01)|hi!id(02);
+<lanset>:小迪;

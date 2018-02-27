@@ -1,0 +1,2065 @@
+============================================================
+Time  2017/08/03 18:37:43 069 
+============================================================
+[2017/08/03 18:37:43 069] isr_local  2168 os_type is:  Linux  
+[2017/08/03 18:37:43 069] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2017/08/03 18:37:43 069] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 070] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2017/08/03 18:37:43 070] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 070] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2017/08/03 18:37:43 070] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 070] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2017/08/03 18:37:43 070] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/03 18:37:43 070] isr_local  803  engine_type  :  local  
+[2017/08/03 18:37:43 070] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/03 18:37:43 070] isr_local  803  sample_rate  :  16000  
+[2017/08/03 18:37:43 070] isr_local  803  asr_threshold  :  40  
+[2017/08/03 18:37:43 070] isr_local  803  asr_denoise  :  1  
+[2017/08/03 18:37:43 070] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/03 18:37:43 070] isr_local  803  local_grammar  :  goto  
+[2017/08/03 18:37:43 070] isr_local  803  result_type  :  json  
+[2017/08/03 18:37:43 070] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/03 18:37:43 070] isr_local  1280 init aitalk in ssb  
+[2017/08/03 18:37:43 070] isr_local  1162 esr_init | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/03 18:37:43 070] isr_local  803  engine_type  :  local  
+[2017/08/03 18:37:43 070] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/03 18:37:43 070] isr_local  803  sample_rate  :  16000  
+[2017/08/03 18:37:43 070] isr_local  803  asr_threshold  :  40  
+[2017/08/03 18:37:43 070] isr_local  803  asr_denoise  :  1  
+[2017/08/03 18:37:43 070] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/03 18:37:43 070] isr_local  803  local_grammar  :  goto  
+[2017/08/03 18:37:43 070] isr_local  803  result_type  :  json  
+[2017/08/03 18:37:43 070] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/03 18:37:43 070] isr_local  1083  lucEsr.new   
+[2017/08/03 18:37:43 070] isr_local  1000 file count =   1  
+[2017/08/03 18:37:43 070] isr_local  923  file open type is:   fo  
+[2017/08/03 18:37:43 070] isr_local  956  res/asr/common.jet  0  0  
+[2017/08/03 18:37:43 070] isr_local  1018 speech_plus_setting  0  
+[2017/08/03 18:37:43 070] isr_local  1031 2  nil  res/asr/common.jet  0  0  
+[2017/08/03 18:37:43 070] isr_local  1033 res_ver  2  
+[2017/08/03 18:37:43 070] isr_local  1034 res 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/03 18:37:43 070] isr_local  1035 res_new_old_mark  v5pp  
+[2017/08/03 18:37:43 070] isr_local  1036 res_usr_name    
+[2017/08/03 18:37:43 070] isr_local  1037 res_expires  1504779145  
+[2017/08/03 18:37:43 070] isr_local  1038 err  0  
+[2017/08/03 18:37:43 070] isr_local  1054 lgi appid 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/03 18:37:43 070] isr_local  1069 now expires:  1501756663  1504779145  
+[2017/08/03 18:37:43 070] auth       252  read auth file failed! err=  11200  
+[2017/08/03 18:37:43 073] isr_local  1294 authorized_aitalk=  nil  
+[2017/08/03 18:37:43 073] isr_local  1295 forbid_aitalk=  nil  
+[2017/08/03 18:37:43 073] auth       570  aitalk  table(3c676d10) nil  nil  appid = 5982f5e2  
+[2017/08/03 18:37:43 073] auth       579  app  nil  nil  nil  
+[2017/08/03 18:37:43 073] auth       636  ath rquest  {"authorize":[{"busin":"aitalk","ver":"2.1.1"}]}  
+[2017/08/03 18:37:43 074] transport  658  paramkvsport is   nil  
+[2017/08/03 18:37:43 074] transport  666  ns_enable=  1  
+[2017/08/03 18:37:43 074] transport  710  url.full=  nil  
+[2017/08/03 18:37:43 074] transport  887  switch 80  
+[2017/08/03 18:37:43 074] transport  898  net type:  standard  
+[2017/08/03 18:37:43 074] transport  899  net operator:  def  
+[2017/08/03 18:37:43 074] transport  900  use proxy:  false  
+[2017/08/03 18:37:43 074] auth       691  not login!  
+[2017/08/03 18:37:43 074] auth       528  [session] send auth request  
+[2017/08/03 18:37:43 074] transport  1033 session.domain=  open.xf-yun.com  
+[2017/08/03 18:37:43 074] transport  1034 url.host=  open.xf-yun.com  
+[2017/08/03 18:37:43 074] transport  1068 NAMESERVER START  
+[2017/08/03 18:37:43 074] transport  1071 name =   ath  
+[2017/08/03 18:37:43 074] ns         629  ntt=  standard  
+[2017/08/03 18:37:43 074] transport  1074 trans,ns_inprog =  0  
+[2017/08/03 18:37:43 074] ns         585  name server start  
+[2017/08/03 18:37:43 074] ns         586  ns_sub =   ath  
+[2017/08/03 18:37:43 074] ns         588  ns_host=  open.xf-yun.com  
+[2017/08/03 18:37:43 074] ns         479  ns_host=  open.xf-yun.com  
+[2017/08/03 18:37:43 074] ns         558  GET /sip/resolver?srand=0803183711.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5982f5e2&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=98d6a7fdea386c8f83d9c50f6c7f41d1
+User-Agent: iFLYCloud
+
+  
+[2017/08/03 18:37:43 074] ns         559  net_type =  standard  
+[2017/08/03 18:37:43 074] ns         560  cmwapascmnet =  
+[2017/08/03 18:37:43 074] ns         561  uniwapasuninet =  
+[2017/08/03 18:37:43 074] ns         562  ctwapasctnet =  
+[2017/08/03 18:37:43 074] ns         579  host=  hdns.openspeech.cn  
+[2017/08/03 18:37:43 074] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2017/08/03 18:37:43 074] auth       535  0  
+[2017/08/03 18:37:43 074] auth       498  lver:  nil  
+[2017/08/03 18:37:43 074] auth       503  cfg_ver:  nil  
+[2017/08/03 18:37:43 074] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2017/08/03 18:37:43 075] isr_local  2076 commit success!  
+[2017/08/03 18:37:43 075] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2017/08/03 18:37:43 075] isr_local  2122 esr_session_begin, ret =   0  
+[2017/08/03 18:37:43 075] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 080] network    224  dns resp  0  ns1  
+[2017/08/03 18:37:43 080] ns         425  ns dns ok  117.121.56.5  
+[2017/08/03 18:37:43 080] ns         205  iplist not avail  
+[2017/08/03 18:37:43 081] ns         432  is_voicecloud_ip=  0  
+[2017/08/03 18:37:43 081] ns         439  ip_is_expected=  true  
+[2017/08/03 18:37:43 081] ns         447  ip_is_expected=  true  
+[2017/08/03 18:37:43 081] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2017/08/03 18:37:43 081] network    440  prot_type  tcp  
+[2017/08/03 18:37:43 086] transport  142  [dns] [1] response 117.121.21.146  
+[2017/08/03 18:37:43 086] transport  152  117  121  21  146  
+[2017/08/03 18:37:43 086] transport  203  ipv =  v4  
+[2017/08/03 18:37:43 086] transport  207  dns ip is v4  
+[2017/08/03 18:37:43 086] transport  181  iplist not avail  
+[2017/08/03 18:37:43 087] transport  247  no iplist now  
+[2017/08/03 18:37:43 087] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/03 18:37:43 087] transport  291  dns cb start conn  
+[2017/08/03 18:37:43 087] transport  1266 [soc] connect   117.121.21.146  80  
+[2017/08/03 18:37:43 087] transport  1283 mspsoc.open,prot_type=  tcp  
+[2017/08/03 18:37:43 122] network    328  connected  ns2  
+[2017/08/03 18:37:43 122] network    331  send ok  271  ns2  
+[2017/08/03 18:37:43 142] transport  476  [soc] [1] connected  
+[2017/08/03 18:37:43 142] transport  1323 build http request.  
+[2017/08/03 18:37:43 142] transport  1423 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 334
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:51
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08cywn9mPsmT8=
+----
+CL:48
+CT:text/appinfo
+CE:gzip
+
+36
+xœËN­´MNN2015LJK346MM¶LM6IINMJ²HLK±4N1  
+[2017/08/03 18:37:43 143] transport  1743 msg:release()  
+[2017/08/03 18:37:43 143] transport  506  [soc] [1] send ok  507  
+[2017/08/03 18:37:43 163] network    340  readable  ns2  
+[2017/08/03 18:37:43 163] network    344  HTTP/1.1 200 OK
+Date: Thu, 03 Aug 2017 10:37:43 GMT
+Content-Type: application/json
+Content-Length: 406
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"116.213.69.201","port":80,"idc":"ch"},{"ip":"117.121.21.146","port":80,"idc":"ch"},{"ip":"117.121.21.147","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.149","port":1028,"idc":"ch"},{"ip":"116.213.69.201","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
+[2017/08/03 18:37:43 163] ns         256  name server http resp  table(3c036e40) 0  udata(3c079e28) 
+[2017/08/03 18:37:43 164] ns         269  ns response OK for this time!  
+[2017/08/03 18:37:43 164] ns         280  from_server=  iflytek/hdns  
+[2017/08/03 18:37:43 164] ns         363  compel :  0  
+[2017/08/03 18:37:43 165] ns         374  tick()=  2488063  
+[2017/08/03 18:37:43 165] ns         378  tick()mod=  2488063  
+[2017/08/03 18:37:43 165] ns         379  ns_host=  open.xf-yun.com  
+[2017/08/03 18:37:43 165] ns         392  ns_host=  open.xf-yun.com  
+[2017/08/03 18:37:43 165] transport  1048 ns_ip =   116.213.69.201  
+[2017/08/03 18:37:43 165] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
+[2017/08/03 18:37:43 165] ns         658  no data in ns_q  
+[2017/08/03 18:37:43 165] ns         659  conti_ns,ns_inprog =   1  
+[2017/08/03 18:37:43 175] isr_local  655  local engine ready  
+[2017/08/03 18:37:43 176] isr_local  585  esr_flush_buf_audio buffer audio num:  0  
+[2017/08/03 18:37:43 176] isr_local  630  local engine started  
+[2017/08/03 18:37:43 196] transport  518  [soc] [1] readable  
+[2017/08/03 18:37:43 196] transport  1696 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 286
+X-Req-Date: 2017/08/03 18:37:43 106
+Cache-Control: no-cache
+CL: 286
+X-Res-Date: 2017/08/03 18:37:43 123
+
+----
+Content-Length:83
+
+ver=MSSP+0%2E9&ret=0&key=09koM4MZiXp20OBwigV9FkW95gYrjCLTdO5F6lUYpWzgQWT/EOrO25Lw==
+----
+Content-Length:86
+Content-Type:binary/authinfo
+Content-Encoding:gzip
+
+79
+xœÊK
+€ Ð½Ü±-Ez›	EƒGöÁ,qïÙôp*—VPÅ3ü}ýß“sœƒ+¤ŒÔÖNJåÈžCÏ²ç=ñÆ4¶Ö>ÍE#
+------  
+[2017/08/03 18:37:43 196] transport  1442 a_complete_httpmessage  200  
+[2017/08/03 18:37:43 196] transport  1552 is_update  true  
+[2017/08/03 18:37:43 196] transport  1556 port updated  80  
+[2017/08/03 18:37:43 196] transport  1558 switch  80  
+[2017/08/03 18:37:43 196] auth       347  [trans] [id = table: 0x7ff43c676e40;;;=0===;auth] readable  
+[2017/08/03 18:37:43 196] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/03 18:37:43 196] transport  973  cached ip is confirmed  
+[2017/08/03 18:37:43 196] transport  1300 [soc] disconnect   
+[2017/08/03 18:37:43 196] auth       383  auth_json=  udata(3c01a5d8) 
+[2017/08/03 18:37:43 196] auth       384  tostring(auth_json)=  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/03 18:37:43 197] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/03 18:37:43 197] auth       404  auth ok!  
+[2017/08/03 18:37:43 302] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:43 302] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:43 302] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:43 302] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 461] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:43 461] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:43 461] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:43 461] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 624] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:43 624] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:43 624] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:43 624] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 624] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:43 624] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:43 624] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:43 624] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 782] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:43 782] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:43 782] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:43 782] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 783] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:43 783] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:43 783] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:43 783] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:43 945] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:43 945] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:43 945] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:43 945] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 108] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 108] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 108] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 108] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 108] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 108] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 108] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 108] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 271] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 271] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 271] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 271] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 272] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 272] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 272] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 272] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 423] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 423] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 423] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 423] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 585] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 585] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 585] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 585] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 586] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 586] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 586] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 586] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 748] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 748] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 748] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 748] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 911] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 911] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 911] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 911] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:44 911] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:44 911] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:44 912] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:44 912] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 074] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 075] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 075] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 075] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 075] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 075] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 075] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 075] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 238] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 238] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 238] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 238] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 401] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 401] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 401] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 401] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 402] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 402] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 402] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 402] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 565] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 565] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 565] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 565] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 703] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 703] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 703] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 703] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 703] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 703] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 703] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 704] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 866] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 866] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 866] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 866] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:45 867] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:45 867] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:45 867] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:45 867] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:46 030] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:46 030] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:46 030] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:46 030] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:46 193] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:46 193] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:46 193] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:46 193] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:46 194] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:46 194] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:46 194] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:46 194] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:46 357] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:46 357] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:46 357] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:46 357] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:46 520] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:46 520] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:46 520] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:46 520] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:46 520] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:46 520] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:46 520] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:46 520] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:46 683] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:46 683] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:46 683] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:46 683] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:46 684] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:46 684] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:46 684] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:46 684] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:46 847] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:46 847] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:46 847] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:46 847] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 010] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 010] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:47 010] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 010] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 011] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 011] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:47 011] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 011] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 174] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 174] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:47 174] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 174] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 174] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 174] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:47 174] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 174] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 337] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 337] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:47 337] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 337] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 501] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 501] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:47 501] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 501] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 501] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 501] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:47 501] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 501] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 664] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 664] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:47 664] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 664] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 828] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 828] isr_local  1558 auwl =   3200  
+[2017/08/03 18:37:47 828] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 828] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 828] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:37:47 828] isr_local  1558 auwl =   1920  
+[2017/08/03 18:37:47 828] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:37:47 828] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:47 842] isr_local  669  final result will throw out next!  
+[2017/08/03 18:37:47 842] isr_local  679  nRecognizeState:  1  
+[2017/08/03 18:37:47 842] isr_local  680  nConfidenceScore:  85  
+[2017/08/03 18:37:47 842] isr_local  728  result_type :   json  
+[2017/08/03 18:37:47 842] isr_local  729  result_encoding :   UTF-8  
+[2017/08/03 18:37:47 842] isr_local  730  is iat :   false  
+[2017/08/03 18:37:47 842] isr_local  349  item_count:1  
+[2017/08/03 18:37:47 842] isr_local  349  item_count:1  
+[2017/08/03 18:37:47 842] isr_local  293  nil  
+[2017/08/03 18:37:47 842] isr_local  675  recognized end!  
+[2017/08/03 18:37:47 993] isr_local  2140 ASR_LOCAL_MSG_SSE  
+[2017/08/03 18:37:47 993] isr_local  1518 esr_session_end | esr_obj:stop ret =  0  
+[2017/08/03 18:37:47 993] isr_local  2142 esr_session_end, ret =  0  
+[2017/08/03 18:37:47 995] isr_local  2265 last gc at  1501756663  
+[2017/08/03 18:37:48 042] isr_local  638  local engine already stopped! stop cmd ignored  
+[2017/08/03 18:37:49 070] isr_local  2182 SYS_MSG_SHUTDOWN_LOCAL  
+[2017/08/03 18:37:49 121] isr_local  2265 last gc at  1501756663  
+============================================================
+Time  2017/08/03 18:38:04 196 
+============================================================
+[2017/08/03 18:38:04 196] isr_local  2168 os_type is:  Linux  
+[2017/08/03 18:38:04 196] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2017/08/03 18:38:04 196] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:04 196] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2017/08/03 18:38:04 196] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:04 197] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2017/08/03 18:38:04 197] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:04 197] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2017/08/03 18:38:04 197] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/03 18:38:04 197] isr_local  803  engine_type  :  local  
+[2017/08/03 18:38:04 197] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/03 18:38:04 197] isr_local  803  sample_rate  :  16000  
+[2017/08/03 18:38:04 197] isr_local  803  asr_threshold  :  40  
+[2017/08/03 18:38:04 197] isr_local  803  asr_denoise  :  1  
+[2017/08/03 18:38:04 197] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/03 18:38:04 197] isr_local  803  local_grammar  :  goto  
+[2017/08/03 18:38:04 197] isr_local  803  result_type  :  json  
+[2017/08/03 18:38:04 197] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/03 18:38:04 197] isr_local  1280 init aitalk in ssb  
+[2017/08/03 18:38:04 197] isr_local  1162 esr_init | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/03 18:38:04 197] isr_local  803  engine_type  :  local  
+[2017/08/03 18:38:04 197] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/03 18:38:04 197] isr_local  803  sample_rate  :  16000  
+[2017/08/03 18:38:04 197] isr_local  803  asr_threshold  :  40  
+[2017/08/03 18:38:04 197] isr_local  803  asr_denoise  :  1  
+[2017/08/03 18:38:04 197] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/03 18:38:04 197] isr_local  803  local_grammar  :  goto  
+[2017/08/03 18:38:04 197] isr_local  803  result_type  :  json  
+[2017/08/03 18:38:04 197] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/03 18:38:04 197] isr_local  1083  lucEsr.new   
+[2017/08/03 18:38:04 197] isr_local  1000 file count =   1  
+[2017/08/03 18:38:04 197] isr_local  923  file open type is:   fo  
+[2017/08/03 18:38:04 197] isr_local  956  res/asr/common.jet  0  0  
+[2017/08/03 18:38:04 197] isr_local  1018 speech_plus_setting  0  
+[2017/08/03 18:38:04 197] isr_local  1031 2  nil  res/asr/common.jet  0  0  
+[2017/08/03 18:38:04 197] isr_local  1033 res_ver  2  
+[2017/08/03 18:38:04 197] isr_local  1034 res 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/03 18:38:04 197] isr_local  1035 res_new_old_mark  v5pp  
+[2017/08/03 18:38:04 197] isr_local  1036 res_usr_name    
+[2017/08/03 18:38:04 197] isr_local  1037 res_expires  1504779145  
+[2017/08/03 18:38:04 197] isr_local  1038 err  0  
+[2017/08/03 18:38:04 197] isr_local  1054 lgi appid 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/03 18:38:04 197] isr_local  1069 now expires:  1501756684  1504779145  
+[2017/08/03 18:38:04 197] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/03 18:38:04 197] auth       312  nil  
+[2017/08/03 18:38:04 201] isr_local  1294 authorized_aitalk=  nil  
+[2017/08/03 18:38:04 201] isr_local  1295 forbid_aitalk=  0  
+[2017/08/03 18:38:04 201] auth       570  aitalk  table(3cdaf5b0) nil  nil  appid = 5982f5e2  
+[2017/08/03 18:38:04 201] auth       579  app  nil  nil  nil  
+[2017/08/03 18:38:04 201] auth       636  ath rquest  {"authorize":[{"busin":"aitalk","ver":"2.1.1"}]}  
+[2017/08/03 18:38:04 201] transport  658  paramkvsport is   nil  
+[2017/08/03 18:38:04 201] transport  666  ns_enable=  1  
+[2017/08/03 18:38:04 201] transport  710  url.full=  nil  
+[2017/08/03 18:38:04 201] transport  887  switch 80  
+[2017/08/03 18:38:04 201] transport  898  net type:  standard  
+[2017/08/03 18:38:04 201] transport  899  net operator:  def  
+[2017/08/03 18:38:04 201] transport  900  use proxy:  false  
+[2017/08/03 18:38:04 201] auth       691  not login!  
+[2017/08/03 18:38:04 201] auth       528  [session] send auth request  
+[2017/08/03 18:38:04 201] transport  1033 session.domain=  open.xf-yun.com  
+[2017/08/03 18:38:04 201] transport  1034 url.host=  open.xf-yun.com  
+[2017/08/03 18:38:04 201] transport  1068 NAMESERVER START  
+[2017/08/03 18:38:04 201] transport  1071 name =   ath  
+[2017/08/03 18:38:04 201] ns         629  ntt=  standard  
+[2017/08/03 18:38:04 201] transport  1074 trans,ns_inprog =  0  
+[2017/08/03 18:38:04 201] ns         585  name server start  
+[2017/08/03 18:38:04 201] ns         586  ns_sub =   ath  
+[2017/08/03 18:38:04 201] ns         588  ns_host=  open.xf-yun.com  
+[2017/08/03 18:38:04 201] ns         479  ns_host=  open.xf-yun.com  
+[2017/08/03 18:38:04 202] ns         558  GET /sip/resolver?srand=0803183811.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5982f5e2&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=fbbfa0fdb5e4d16e5046d82c5b831259
+User-Agent: iFLYCloud
+
+  
+[2017/08/03 18:38:04 202] ns         559  net_type =  standard  
+[2017/08/03 18:38:04 202] ns         560  cmwapascmnet =  
+[2017/08/03 18:38:04 202] ns         561  uniwapasuninet =  
+[2017/08/03 18:38:04 202] ns         562  ctwapasctnet =  
+[2017/08/03 18:38:04 202] ns         579  host=  hdns.openspeech.cn  
+[2017/08/03 18:38:04 202] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2017/08/03 18:38:04 202] auth       535  0  
+[2017/08/03 18:38:04 202] auth       498  lver:  nil  
+[2017/08/03 18:38:04 202] auth       503  cfg_ver:  nil  
+[2017/08/03 18:38:04 202] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2017/08/03 18:38:04 203] isr_local  2076 commit success!  
+[2017/08/03 18:38:04 203] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2017/08/03 18:38:04 203] isr_local  2122 esr_session_begin, ret =   0  
+[2017/08/03 18:38:04 203] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:04 209] network    224  dns resp  0  ns1  
+[2017/08/03 18:38:04 209] ns         425  ns dns ok  117.121.56.5  
+[2017/08/03 18:38:04 209] ns         205  iplist not avail  
+[2017/08/03 18:38:04 210] ns         432  is_voicecloud_ip=  0  
+[2017/08/03 18:38:04 210] ns         439  ip_is_expected=  true  
+[2017/08/03 18:38:04 210] ns         447  ip_is_expected=  true  
+[2017/08/03 18:38:04 210] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2017/08/03 18:38:04 210] network    440  prot_type  tcp  
+[2017/08/03 18:38:04 218] transport  142  [dns] [1] response 117.121.21.146  
+[2017/08/03 18:38:04 218] transport  152  117  121  21  146  
+[2017/08/03 18:38:04 218] transport  203  ipv =  v4  
+[2017/08/03 18:38:04 218] transport  207  dns ip is v4  
+[2017/08/03 18:38:04 218] transport  181  iplist not avail  
+[2017/08/03 18:38:04 218] transport  247  no iplist now  
+[2017/08/03 18:38:04 218] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/03 18:38:04 218] transport  291  dns cb start conn  
+[2017/08/03 18:38:04 218] transport  1266 [soc] connect   117.121.21.146  80  
+[2017/08/03 18:38:04 219] transport  1283 mspsoc.open,prot_type=  tcp  
+[2017/08/03 18:38:04 251] network    328  connected  ns2  
+[2017/08/03 18:38:04 251] network    331  send ok  271  ns2  
+[2017/08/03 18:38:04 271] transport  476  [soc] [1] connected  
+[2017/08/03 18:38:04 271] transport  1323 build http request.  
+[2017/08/03 18:38:04 272] transport  1423 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 334
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:51
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08cywn9mPsmT8=
+----
+CL:48
+CT:text/appinfo
+CE:gzip
+
+36
+xœËN­´MNN2015LJK346MM¶LM6IINMJ²HLK±4N1  
+[2017/08/03 18:38:04 272] transport  1743 msg:release()  
+[2017/08/03 18:38:04 273] transport  506  [soc] [1] send ok  507  
+[2017/08/03 18:38:04 292] network    340  readable  ns2  
+[2017/08/03 18:38:04 292] network    344  HTTP/1.1 200 OK
+Date: Thu, 03 Aug 2017 10:38:04 GMT
+Content-Type: application/json
+Content-Length: 406
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"116.213.69.201","port":80,"idc":"ch"},{"ip":"117.121.21.146","port":80,"idc":"ch"},{"ip":"117.121.21.147","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.149","port":1028,"idc":"ch"},{"ip":"116.213.69.201","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
+[2017/08/03 18:38:04 292] ns         256  name server http resp  table(3c073f90) 0  udata(3c0a2568) 
+[2017/08/03 18:38:04 292] ns         269  ns response OK for this time!  
+[2017/08/03 18:38:04 292] ns         280  from_server=  iflytek/hdns  
+[2017/08/03 18:38:04 293] ns         363  compel :  0  
+[2017/08/03 18:38:04 293] ns         374  tick()=  2509191  
+[2017/08/03 18:38:04 293] ns         378  tick()mod=  2509192  
+[2017/08/03 18:38:04 293] ns         379  ns_host=  open.xf-yun.com  
+[2017/08/03 18:38:04 294] ns         392  ns_host=  open.xf-yun.com  
+[2017/08/03 18:38:04 294] transport  1048 ns_ip =   116.213.69.201  
+[2017/08/03 18:38:04 294] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
+[2017/08/03 18:38:04 294] ns         658  no data in ns_q  
+[2017/08/03 18:38:04 294] ns         659  conti_ns,ns_inprog =   1  
+[2017/08/03 18:38:04 303] isr_local  655  local engine ready  
+[2017/08/03 18:38:04 303] isr_local  585  esr_flush_buf_audio buffer audio num:  0  
+[2017/08/03 18:38:04 303] isr_local  630  local engine started  
+[2017/08/03 18:38:04 324] transport  518  [soc] [1] readable  
+[2017/08/03 18:38:04 324] transport  1696 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 286
+X-Req-Date: 2017/08/03 18:38:04 236
+Cache-Control: no-cache
+CL: 286
+X-Res-Date: 2017/08/03 18:38:04 251
+
+----
+Content-Length:83
+
+ver=MSSP+0%2E9&ret=0&key=09UGPjtleTOCJVy/p7R7EI4nzqvYC/x9VZYbJUgK6xhjMWT/EOrO25Lw==
+----
+Content-Length:86
+Content-Type:binary/authinfo
+Content-Encoding:gzip
+
+79
+xœÊK
+€ Ð½Ü±-Ez›	EƒGöÁ,qïÙôp*—VPÅ3ü}ýß“sœƒ+¤ŒÔÖNJåÈžCÏ²ç=ñÆ4¶Ö>ÍE#
+------  
+[2017/08/03 18:38:04 324] transport  1442 a_complete_httpmessage  200  
+[2017/08/03 18:38:04 325] transport  1552 is_update  true  
+[2017/08/03 18:38:04 325] transport  1556 port updated  80  
+[2017/08/03 18:38:04 325] transport  1558 switch  80  
+[2017/08/03 18:38:04 325] auth       347  [trans] [id = table: 0x7ff43cdaf6b0;;;=0===;auth] readable  
+[2017/08/03 18:38:04 325] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/03 18:38:04 325] transport  973  cached ip is confirmed  
+[2017/08/03 18:38:04 325] transport  1300 [soc] disconnect   
+[2017/08/03 18:38:04 325] auth       383  auth_json=  udata(3c071748) 
+[2017/08/03 18:38:04 325] auth       384  tostring(auth_json)=  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/03 18:38:04 325] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/03 18:38:04 326] auth       404  auth ok!  
+[2017/08/03 18:38:04 428] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:04 428] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:04 428] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:04 428] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:04 588] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:04 588] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:04 588] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:04 588] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:04 752] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:04 752] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:04 752] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:04 752] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:04 752] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:04 752] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:04 752] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:04 752] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:04 909] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:04 909] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:04 909] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:04 909] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:04 909] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:04 909] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:04 909] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:04 909] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:05 072] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:05 072] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:05 072] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:05 072] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:05 236] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:05 236] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:05 236] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:05 236] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:05 236] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:05 236] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:05 236] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:05 236] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:05 399] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:05 399] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:05 399] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:05 399] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:05 400] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:05 400] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:05 400] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:05 400] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:05 549] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:05 549] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:05 549] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:05 549] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:05 713] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:05 713] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:05 713] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:05 713] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:05 713] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:05 713] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:05 713] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:05 713] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:05 876] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:05 876] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:05 876] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:05 876] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 040] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 040] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 040] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 040] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 040] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 040] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 040] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 040] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 203] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 203] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 203] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 203] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 203] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 203] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 203] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 203] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 366] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 366] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 366] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 366] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 530] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 530] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 530] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 530] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 530] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 530] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 530] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 530] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 693] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 693] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 693] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 693] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 694] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 694] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 694] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 694] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 830] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 830] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 830] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 830] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 994] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 994] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 994] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 994] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:06 994] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:06 994] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:06 994] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:06 994] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:07 157] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:07 157] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:07 157] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:07 157] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:07 320] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:07 320] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:07 320] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:07 320] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:07 321] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:07 321] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:07 321] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:07 321] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:07 483] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:07 484] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:07 484] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:07 484] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:07 484] isr_local  675  recognized end!  
+[2017/08/03 18:38:07 648] isr_local  2140 ASR_LOCAL_MSG_SSE  
+[2017/08/03 18:38:07 648] isr_local  1518 esr_session_end | esr_obj:stop ret =  0  
+[2017/08/03 18:38:07 648] isr_local  2142 esr_session_end, ret =  0  
+[2017/08/03 18:38:07 650] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:07 650] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:07 650] isr_local  601  audio buffered :   udata(3c049f38) 2  
+[2017/08/03 18:38:07 650] isr_local  2265 last gc at  1501756684  
+[2017/08/03 18:38:07 685] isr_local  638  local engine already stopped! stop cmd ignored  
+[2017/08/03 18:38:10 197] isr_local  2182 SYS_MSG_SHUTDOWN_LOCAL  
+[2017/08/03 18:38:10 248] isr_local  2265 last gc at  1501756684  
+============================================================
+Time  2017/08/03 18:38:16 415 
+============================================================
+[2017/08/03 18:38:16 415] isr_local  2168 os_type is:  Linux  
+[2017/08/03 18:38:16 415] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2017/08/03 18:38:16 415] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:16 416] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2017/08/03 18:38:16 416] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:16 416] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2017/08/03 18:38:16 416] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:16 416] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2017/08/03 18:38:16 416] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/03 18:38:16 416] isr_local  803  engine_type  :  local  
+[2017/08/03 18:38:16 416] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/03 18:38:16 416] isr_local  803  sample_rate  :  16000  
+[2017/08/03 18:38:16 416] isr_local  803  asr_threshold  :  40  
+[2017/08/03 18:38:16 416] isr_local  803  asr_denoise  :  1  
+[2017/08/03 18:38:16 416] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/03 18:38:16 416] isr_local  803  local_grammar  :  goto  
+[2017/08/03 18:38:16 416] isr_local  803  result_type  :  json  
+[2017/08/03 18:38:16 416] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/03 18:38:16 416] isr_local  1280 init aitalk in ssb  
+[2017/08/03 18:38:16 416] isr_local  1162 esr_init | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/03 18:38:16 416] isr_local  803  engine_type  :  local  
+[2017/08/03 18:38:16 416] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/03 18:38:16 416] isr_local  803  sample_rate  :  16000  
+[2017/08/03 18:38:16 416] isr_local  803  asr_threshold  :  40  
+[2017/08/03 18:38:16 416] isr_local  803  asr_denoise  :  1  
+[2017/08/03 18:38:16 416] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/03 18:38:16 416] isr_local  803  local_grammar  :  goto  
+[2017/08/03 18:38:16 416] isr_local  803  result_type  :  json  
+[2017/08/03 18:38:16 416] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/03 18:38:16 416] isr_local  1083  lucEsr.new   
+[2017/08/03 18:38:16 416] isr_local  1000 file count =   1  
+[2017/08/03 18:38:16 416] isr_local  923  file open type is:   fo  
+[2017/08/03 18:38:16 416] isr_local  956  res/asr/common.jet  0  0  
+[2017/08/03 18:38:16 416] isr_local  1018 speech_plus_setting  0  
+[2017/08/03 18:38:16 416] isr_local  1031 2  nil  res/asr/common.jet  0  0  
+[2017/08/03 18:38:16 416] isr_local  1033 res_ver  2  
+[2017/08/03 18:38:16 416] isr_local  1034 res 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/03 18:38:16 416] isr_local  1035 res_new_old_mark  v5pp  
+[2017/08/03 18:38:16 416] isr_local  1036 res_usr_name    
+[2017/08/03 18:38:16 416] isr_local  1037 res_expires  1504779145  
+[2017/08/03 18:38:16 416] isr_local  1038 err  0  
+[2017/08/03 18:38:16 416] isr_local  1054 lgi appid 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/03 18:38:16 416] isr_local  1069 now expires:  1501756696  1504779145  
+[2017/08/03 18:38:16 416] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/03 18:38:16 416] auth       312  nil  
+[2017/08/03 18:38:16 419] isr_local  1294 authorized_aitalk=  nil  
+[2017/08/03 18:38:16 419] isr_local  1295 forbid_aitalk=  0  
+[2017/08/03 18:38:16 419] auth       570  aitalk  table(48daf5b0) nil  nil  appid = 5982f5e2  
+[2017/08/03 18:38:16 419] auth       579  app  nil  nil  nil  
+[2017/08/03 18:38:16 419] auth       636  ath rquest  {"authorize":[{"busin":"aitalk","ver":"2.1.1"}]}  
+[2017/08/03 18:38:16 419] transport  658  paramkvsport is   nil  
+[2017/08/03 18:38:16 419] transport  666  ns_enable=  1  
+[2017/08/03 18:38:16 419] transport  710  url.full=  nil  
+[2017/08/03 18:38:16 419] transport  887  switch 80  
+[2017/08/03 18:38:16 419] transport  898  net type:  standard  
+[2017/08/03 18:38:16 419] transport  899  net operator:  def  
+[2017/08/03 18:38:16 419] transport  900  use proxy:  false  
+[2017/08/03 18:38:16 419] auth       691  not login!  
+[2017/08/03 18:38:16 419] auth       528  [session] send auth request  
+[2017/08/03 18:38:16 419] transport  1033 session.domain=  open.xf-yun.com  
+[2017/08/03 18:38:16 419] transport  1034 url.host=  open.xf-yun.com  
+[2017/08/03 18:38:16 419] transport  1068 NAMESERVER START  
+[2017/08/03 18:38:16 419] transport  1071 name =   ath  
+[2017/08/03 18:38:16 419] ns         629  ntt=  standard  
+[2017/08/03 18:38:16 419] transport  1074 trans,ns_inprog =  0  
+[2017/08/03 18:38:16 420] ns         585  name server start  
+[2017/08/03 18:38:16 420] ns         586  ns_sub =   ath  
+[2017/08/03 18:38:16 420] ns         588  ns_host=  open.xf-yun.com  
+[2017/08/03 18:38:16 420] ns         479  ns_host=  open.xf-yun.com  
+[2017/08/03 18:38:16 420] ns         558  GET /sip/resolver?srand=0803183811.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5982f5e2&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=fbbfa0fdb5e4d16e5046d82c5b831259
+User-Agent: iFLYCloud
+
+  
+[2017/08/03 18:38:16 420] ns         559  net_type =  standard  
+[2017/08/03 18:38:16 420] ns         560  cmwapascmnet =  
+[2017/08/03 18:38:16 420] ns         561  uniwapasuninet =  
+[2017/08/03 18:38:16 420] ns         562  ctwapasctnet =  
+[2017/08/03 18:38:16 420] ns         579  host=  hdns.openspeech.cn  
+[2017/08/03 18:38:16 420] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2017/08/03 18:38:16 420] auth       535  0  
+[2017/08/03 18:38:16 420] auth       498  lver:  nil  
+[2017/08/03 18:38:16 420] auth       503  cfg_ver:  nil  
+[2017/08/03 18:38:16 420] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2017/08/03 18:38:16 421] isr_local  2076 commit success!  
+[2017/08/03 18:38:16 421] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2017/08/03 18:38:16 421] isr_local  2122 esr_session_begin, ret =   0  
+[2017/08/03 18:38:16 421] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:16 428] network    224  dns resp  0  ns1  
+[2017/08/03 18:38:16 428] ns         425  ns dns ok  117.121.56.5  
+[2017/08/03 18:38:16 428] ns         205  iplist not avail  
+[2017/08/03 18:38:16 428] ns         432  is_voicecloud_ip=  0  
+[2017/08/03 18:38:16 428] ns         439  ip_is_expected=  true  
+[2017/08/03 18:38:16 428] ns         447  ip_is_expected=  true  
+[2017/08/03 18:38:16 428] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2017/08/03 18:38:16 428] network    440  prot_type  tcp  
+[2017/08/03 18:38:16 435] transport  142  [dns] [1] response 117.121.21.146  
+[2017/08/03 18:38:16 435] transport  152  117  121  21  146  
+[2017/08/03 18:38:16 435] transport  203  ipv =  v4  
+[2017/08/03 18:38:16 435] transport  207  dns ip is v4  
+[2017/08/03 18:38:16 435] transport  181  iplist not avail  
+[2017/08/03 18:38:16 435] transport  247  no iplist now  
+[2017/08/03 18:38:16 436] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/03 18:38:16 436] transport  291  dns cb start conn  
+[2017/08/03 18:38:16 436] transport  1266 [soc] connect   117.121.21.146  80  
+[2017/08/03 18:38:16 436] transport  1283 mspsoc.open,prot_type=  tcp  
+[2017/08/03 18:38:16 469] network    328  connected  ns2  
+[2017/08/03 18:38:16 470] network    331  send ok  271  ns2  
+[2017/08/03 18:38:16 490] transport  476  [soc] [1] connected  
+[2017/08/03 18:38:16 490] transport  1323 build http request.  
+[2017/08/03 18:38:16 490] transport  1423 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 334
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:51
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08cywn9mPsmT8=
+----
+CL:48
+CT:text/appinfo
+CE:gzip
+
+36
+xœËN­´MNN2015LJK346MM¶LM6IINMJ²HLK±4N1  
+[2017/08/03 18:38:16 491] transport  1743 msg:release()  
+[2017/08/03 18:38:16 491] transport  506  [soc] [1] send ok  507  
+[2017/08/03 18:38:16 511] network    340  readable  ns2  
+[2017/08/03 18:38:16 511] network    344  HTTP/1.1 200 OK
+Date: Thu, 03 Aug 2017 10:38:16 GMT
+Content-Type: application/json
+Content-Length: 406
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"116.213.69.201","port":80,"idc":"ch"},{"ip":"117.121.21.146","port":80,"idc":"ch"},{"ip":"117.121.21.147","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.149","port":1028,"idc":"ch"},{"ip":"116.213.69.201","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
+[2017/08/03 18:38:16 511] ns         256  name server http resp  table(48dafd30) 0  udata(480a2568) 
+[2017/08/03 18:38:16 511] ns         269  ns response OK for this time!  
+[2017/08/03 18:38:16 511] ns         280  from_server=  iflytek/hdns  
+[2017/08/03 18:38:16 512] ns         363  compel :  0  
+[2017/08/03 18:38:16 512] ns         374  tick()=  2521410  
+[2017/08/03 18:38:16 512] ns         378  tick()mod=  2521410  
+[2017/08/03 18:38:16 512] ns         379  ns_host=  open.xf-yun.com  
+[2017/08/03 18:38:16 512] ns         392  ns_host=  open.xf-yun.com  
+[2017/08/03 18:38:16 512] transport  1048 ns_ip =   116.213.69.201  
+[2017/08/03 18:38:16 512] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
+[2017/08/03 18:38:16 512] ns         658  no data in ns_q  
+[2017/08/03 18:38:16 512] ns         659  conti_ns,ns_inprog =   1  
+[2017/08/03 18:38:16 521] isr_local  655  local engine ready  
+[2017/08/03 18:38:16 521] isr_local  585  esr_flush_buf_audio buffer audio num:  0  
+[2017/08/03 18:38:16 521] isr_local  630  local engine started  
+[2017/08/03 18:38:16 545] transport  518  [soc] [1] readable  
+[2017/08/03 18:38:16 545] transport  1696 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 286
+X-Req-Date: 2017/08/03 18:38:16 453
+Cache-Control: no-cache
+CL: 286
+X-Res-Date: 2017/08/03 18:38:16 469
+
+----
+Content-Length:83
+
+ver=MSSP+0%2E9&ret=0&key=09ZMZAsRwWl/qq^2TB5xnZtSEWMHpSMhXDvfzlSOItk/AWT/EOrO25Lw==
+----
+Content-Length:86
+Content-Type:binary/authinfo
+Content-Encoding:gzip
+
+79
+xœÊK
+€ Ð½Ü±-Ez›	EƒGöÁ,qïÙôp*—VPÅ3ü}ýß“sœƒ+¤ŒÔÖNJåÈžCÏ²ç=ñÆ4¶Ö>ÍE#
+------  
+[2017/08/03 18:38:16 545] transport  1442 a_complete_httpmessage  200  
+[2017/08/03 18:38:16 545] transport  1552 is_update  true  
+[2017/08/03 18:38:16 545] transport  1556 port updated  80  
+[2017/08/03 18:38:16 545] transport  1558 switch  80  
+[2017/08/03 18:38:16 545] auth       347  [trans] [id = table: 0x7ff448daf6b0;;;=0===;auth] readable  
+[2017/08/03 18:38:16 545] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/03 18:38:16 546] transport  973  cached ip is confirmed  
+[2017/08/03 18:38:16 546] transport  1300 [soc] disconnect   
+[2017/08/03 18:38:16 546] auth       383  auth_json=  udata(48dcdb48) 
+[2017/08/03 18:38:16 546] auth       384  tostring(auth_json)=  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/03 18:38:16 546] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/03 18:38:16 546] auth       404  auth ok!  
+[2017/08/03 18:38:16 648] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:16 648] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:16 648] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:16 648] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:16 808] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:16 808] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:16 808] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:16 808] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:16 971] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:16 971] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:16 971] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:16 971] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:16 971] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:16 971] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:16 971] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:16 971] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 128] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 128] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 128] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 128] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 129] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 129] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 129] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 129] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 292] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 292] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 292] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 292] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 455] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 455] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 455] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 455] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 456] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 456] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 456] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 456] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 618] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 618] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 618] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 618] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 618] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 618] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 618] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 618] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 769] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 769] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 769] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 769] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 933] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 933] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 933] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 933] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:17 933] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:17 933] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:17 933] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:17 933] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 095] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 095] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 095] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 095] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 259] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 259] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 259] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 259] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 259] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 259] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 259] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 259] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 422] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 422] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 422] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 422] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 422] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 422] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 422] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 422] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 585] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 585] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 585] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 585] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 749] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 749] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 749] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 749] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 749] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 749] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 749] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 749] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 911] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 911] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 911] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 911] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:18 912] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:18 912] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:18 912] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:18 912] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:19 050] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:19 050] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:19 050] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:19 050] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:19 213] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:19 213] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:19 213] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:19 213] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:19 214] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:19 214] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:19 214] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:19 214] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:19 376] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:19 376] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:19 376] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:19 376] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:19 540] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:19 540] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:19 540] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:19 540] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:19 540] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:19 540] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:19 540] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:19 540] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:19 703] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:19 703] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:19 703] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:19 703] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:19 867] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:19 867] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:19 867] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:19 867] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:19 867] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:19 867] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:19 867] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:19 867] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 030] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 030] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 030] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 030] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 030] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 030] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 030] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 031] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 193] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 193] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 193] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 193] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 357] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 357] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 357] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 357] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 357] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 357] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 357] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 357] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 520] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 520] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 520] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 520] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 520] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 520] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 520] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 520] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 683] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 683] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 683] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 683] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 847] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 847] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 847] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 847] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:20 847] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:20 847] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:20 847] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:20 847] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 010] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 010] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 010] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 010] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 173] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 173] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 173] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 173] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 173] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 173] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 173] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 173] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 336] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 336] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 336] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 336] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 336] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 336] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 336] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 336] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 463] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 463] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 463] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 464] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 627] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 627] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 627] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 627] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 627] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 627] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 627] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 627] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 790] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 790] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 790] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 790] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 953] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 953] isr_local  1558 auwl =   3200  
+[2017/08/03 18:38:21 953] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 953] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 954] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/03 18:38:21 954] isr_local  1558 auwl =   640  
+[2017/08/03 18:38:21 954] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/03 18:38:21 954] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:21 967] isr_local  669  final result will throw out next!  
+[2017/08/03 18:38:21 967] isr_local  679  nRecognizeState:  1  
+[2017/08/03 18:38:21 967] isr_local  680  nConfidenceScore:  77  
+[2017/08/03 18:38:21 967] isr_local  728  result_type :   json  
+[2017/08/03 18:38:21 967] isr_local  729  result_encoding :   UTF-8  
+[2017/08/03 18:38:21 967] isr_local  730  is iat :   false  
+[2017/08/03 18:38:21 967] isr_local  349  item_count:1  
+[2017/08/03 18:38:21 967] isr_local  349  item_count:1  
+[2017/08/03 18:38:21 967] isr_local  349  item_count:1  
+[2017/08/03 18:38:21 967] isr_local  293  nil  
+[2017/08/03 18:38:21 967] isr_local  675  recognized end!  
+[2017/08/03 18:38:22 118] isr_local  2140 ASR_LOCAL_MSG_SSE  
+[2017/08/03 18:38:22 118] isr_local  1518 esr_session_end | esr_obj:stop ret =  0  
+[2017/08/03 18:38:22 119] isr_local  2142 esr_session_end, ret =  0  
+[2017/08/03 18:38:22 120] isr_local  2265 last gc at  1501756696  
+[2017/08/03 18:38:22 167] isr_local  638  local engine already stopped! stop cmd ignored  
+[2017/08/03 18:38:22 416] isr_local  2182 SYS_MSG_SHUTDOWN_LOCAL  
+[2017/08/03 18:38:22 466] isr_local  2265 last gc at  1501756696  
+============================================================
+Time  2017/08/04 10:09:40 574 
+============================================================
+[2017/08/04 10:09:40 575] isr_local  2168 os_type is:  Linux  
+[2017/08/04 10:09:40 575] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2017/08/04 10:09:40 575] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:40 575] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2017/08/04 10:09:40 575] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:40 575] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2017/08/04 10:09:40 575] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:40 575] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2017/08/04 10:09:40 575] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/04 10:09:40 575] isr_local  803  engine_type  :  local  
+[2017/08/04 10:09:40 575] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/04 10:09:40 575] isr_local  803  sample_rate  :  16000  
+[2017/08/04 10:09:40 575] isr_local  803  asr_threshold  :  40  
+[2017/08/04 10:09:40 575] isr_local  803  asr_denoise  :  1  
+[2017/08/04 10:09:40 575] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/04 10:09:40 575] isr_local  803  local_grammar  :  goto  
+[2017/08/04 10:09:40 575] isr_local  803  result_type  :  json  
+[2017/08/04 10:09:40 575] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/04 10:09:40 575] isr_local  1280 init aitalk in ssb  
+[2017/08/04 10:09:40 575] isr_local  1162 esr_init | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/04 10:09:40 575] isr_local  803  engine_type  :  local  
+[2017/08/04 10:09:40 575] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/04 10:09:40 575] isr_local  803  sample_rate  :  16000  
+[2017/08/04 10:09:40 575] isr_local  803  asr_threshold  :  40  
+[2017/08/04 10:09:40 575] isr_local  803  asr_denoise  :  1  
+[2017/08/04 10:09:40 575] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/04 10:09:40 575] isr_local  803  local_grammar  :  goto  
+[2017/08/04 10:09:40 575] isr_local  803  result_type  :  json  
+[2017/08/04 10:09:40 575] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/04 10:09:40 575] isr_local  1083  lucEsr.new   
+[2017/08/04 10:09:40 575] isr_local  1000 file count =   1  
+[2017/08/04 10:09:40 575] isr_local  923  file open type is:   fo  
+[2017/08/04 10:09:40 575] isr_local  956  res/asr/common.jet  0  0  
+[2017/08/04 10:09:40 575] isr_local  1018 speech_plus_setting  0  
+[2017/08/04 10:09:40 575] isr_local  1031 2  nil  res/asr/common.jet  0  0  
+[2017/08/04 10:09:40 575] isr_local  1033 res_ver  2  
+[2017/08/04 10:09:40 575] isr_local  1034 res 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/04 10:09:40 575] isr_local  1035 res_new_old_mark  v5pp  
+[2017/08/04 10:09:40 575] isr_local  1036 res_usr_name    
+[2017/08/04 10:09:40 575] isr_local  1037 res_expires  1504779145  
+[2017/08/04 10:09:40 575] isr_local  1038 err  0  
+[2017/08/04 10:09:40 575] isr_local  1054 lgi appid 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/04 10:09:40 575] isr_local  1069 now expires:  1501812580  1504779145  
+[2017/08/04 10:09:40 575] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/04 10:09:40 575] auth       312  nil  
+[2017/08/04 10:09:40 594] isr_local  1294 authorized_aitalk=  nil  
+[2017/08/04 10:09:40 594] isr_local  1295 forbid_aitalk=  0  
+[2017/08/04 10:09:40 594] auth       570  aitalk  table(54677be0) nil  nil  appid = 5982f5e2  
+[2017/08/04 10:09:40 594] auth       579  app  nil  nil  nil  
+[2017/08/04 10:09:40 594] auth       636  ath rquest  {"authorize":[{"busin":"aitalk","ver":"2.1.1"}]}  
+[2017/08/04 10:09:40 595] transport  658  paramkvsport is   nil  
+[2017/08/04 10:09:40 595] transport  666  ns_enable=  1  
+[2017/08/04 10:09:40 595] transport  710  url.full=  nil  
+[2017/08/04 10:09:40 595] transport  887  switch 80  
+[2017/08/04 10:09:40 595] transport  898  net type:  standard  
+[2017/08/04 10:09:40 595] transport  899  net operator:  def  
+[2017/08/04 10:09:40 595] transport  900  use proxy:  false  
+[2017/08/04 10:09:40 595] auth       691  not login!  
+[2017/08/04 10:09:40 595] auth       528  [session] send auth request  
+[2017/08/04 10:09:40 595] transport  1033 session.domain=  open.xf-yun.com  
+[2017/08/04 10:09:40 595] transport  1034 url.host=  open.xf-yun.com  
+[2017/08/04 10:09:40 595] transport  1068 NAMESERVER START  
+[2017/08/04 10:09:40 595] transport  1071 name =   ath  
+[2017/08/04 10:09:40 595] ns         629  ntt=  standard  
+[2017/08/04 10:09:40 595] transport  1074 trans,ns_inprog =  0  
+[2017/08/04 10:09:40 595] ns         585  name server start  
+[2017/08/04 10:09:40 595] ns         586  ns_sub =   ath  
+[2017/08/04 10:09:40 595] ns         588  ns_host=  open.xf-yun.com  
+[2017/08/04 10:09:40 595] ns         479  ns_host=  open.xf-yun.com  
+[2017/08/04 10:09:40 595] ns         558  GET /sip/resolver?srand=0804100911.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5982f5e2&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=51eab3e855386e9c375fa703aca0f4c6
+User-Agent: iFLYCloud
+
+  
+[2017/08/04 10:09:40 595] ns         559  net_type =  standard  
+[2017/08/04 10:09:40 595] ns         560  cmwapascmnet =  
+[2017/08/04 10:09:40 595] ns         561  uniwapasuninet =  
+[2017/08/04 10:09:40 595] ns         562  ctwapasctnet =  
+[2017/08/04 10:09:40 595] ns         579  host=  hdns.openspeech.cn  
+[2017/08/04 10:09:40 595] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2017/08/04 10:09:40 595] auth       535  0  
+[2017/08/04 10:09:40 595] auth       498  lver:  nil  
+[2017/08/04 10:09:40 595] auth       503  cfg_ver:  nil  
+[2017/08/04 10:09:40 595] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2017/08/04 10:09:40 596] isr_local  2076 commit success!  
+[2017/08/04 10:09:40 597] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2017/08/04 10:09:40 597] isr_local  2122 esr_session_begin, ret =   0  
+[2017/08/04 10:09:40 597] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:40 601] network    224  dns resp  0  ns1  
+[2017/08/04 10:09:40 601] ns         425  ns dns ok  117.121.56.5  
+[2017/08/04 10:09:40 601] ns         205  iplist not avail  
+[2017/08/04 10:09:40 601] ns         432  is_voicecloud_ip=  0  
+[2017/08/04 10:09:40 601] ns         439  ip_is_expected=  true  
+[2017/08/04 10:09:40 601] ns         447  ip_is_expected=  true  
+[2017/08/04 10:09:40 601] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2017/08/04 10:09:40 601] network    440  prot_type  tcp  
+[2017/08/04 10:09:40 607] transport  142  [dns] [1] response 117.121.21.146  
+[2017/08/04 10:09:40 607] transport  152  117  121  21  146  
+[2017/08/04 10:09:40 607] transport  203  ipv =  v4  
+[2017/08/04 10:09:40 607] transport  207  dns ip is v4  
+[2017/08/04 10:09:40 607] transport  181  iplist not avail  
+[2017/08/04 10:09:40 607] transport  247  no iplist now  
+[2017/08/04 10:09:40 607] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/04 10:09:40 607] transport  291  dns cb start conn  
+[2017/08/04 10:09:40 607] transport  1266 [soc] connect   117.121.21.146  80  
+[2017/08/04 10:09:40 607] transport  1283 mspsoc.open,prot_type=  tcp  
+[2017/08/04 10:09:40 631] network    328  connected  ns2  
+[2017/08/04 10:09:40 632] network    331  send ok  271  ns2  
+[2017/08/04 10:09:40 662] transport  476  [soc] [1] connected  
+[2017/08/04 10:09:40 662] transport  1323 build http request.  
+[2017/08/04 10:09:40 663] transport  1423 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 334
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:51
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08cywn9mPsmT8=
+----
+CL:48
+CT:text/appinfo
+CE:gzip
+
+36
+xœËN­´MNN2015LJK346MM¶LM6IINMJ²HLK±4N1  
+[2017/08/04 10:09:40 663] transport  1743 msg:release()  
+[2017/08/04 10:09:40 663] transport  506  [soc] [1] send ok  507  
+[2017/08/04 10:09:40 673] network    340  readable  ns2  
+[2017/08/04 10:09:40 673] network    344  HTTP/1.1 200 OK
+Date: Fri, 04 Aug 2017 02:09:40 GMT
+Content-Type: application/json
+Content-Length: 406
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.147","port":80,"idc":"ch"},{"ip":"117.121.21.149","port":1028,"idc":"ch"},{"ip":"116.213.69.201","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.146","port":80,"idc":"ch"},{"ip":"117.121.21.147","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
+[2017/08/04 10:09:40 673] ns         256  name server http resp  table(5407a8f0) 0  udata(540757a8) 
+[2017/08/04 10:09:40 673] ns         269  ns response OK for this time!  
+[2017/08/04 10:09:40 673] ns         280  from_server=  iflytek/hdns  
+[2017/08/04 10:09:40 674] ns         363  compel :  0  
+[2017/08/04 10:09:40 674] ns         374  tick()=  48948  
+[2017/08/04 10:09:40 674] ns         378  tick()mod=  48948  
+[2017/08/04 10:09:40 674] ns         379  ns_host=  open.xf-yun.com  
+[2017/08/04 10:09:40 674] ns         392  ns_host=  open.xf-yun.com  
+[2017/08/04 10:09:40 674] transport  1048 ns_ip =   117.121.21.147  
+[2017/08/04 10:09:40 674] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
+[2017/08/04 10:09:40 674] ns         658  no data in ns_q  
+[2017/08/04 10:09:40 674] ns         659  conti_ns,ns_inprog =   1  
+[2017/08/04 10:09:40 697] isr_local  655  local engine ready  
+[2017/08/04 10:09:40 697] isr_local  585  esr_flush_buf_audio buffer audio num:  0  
+[2017/08/04 10:09:40 697] isr_local  630  local engine started  
+[2017/08/04 10:09:40 716] transport  518  [soc] [1] readable  
+[2017/08/04 10:09:40 716] transport  1696 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 286
+X-Req-Date: 2017/08/04 10:09:40 672
+Cache-Control: no-cache
+CL: 286
+X-Res-Date: 2017/08/04 10:09:40 689
+
+----
+Content-Length:83
+
+ver=MSSP+0%2E9&ret=0&key=09J5XUbC8tPXORtVZTOjjSWN8ztrTBi^6qw4xusuPExYMWT/EOrO25Lw==
+----
+Content-Length:86
+Content-Type:binary/authinfo
+Content-Encoding:gzip
+
+79
+xœÊK
+€ Ð½Ü±-Ez›	EƒGöÁ,qïÙôp*—VPÅ3ü}ýß“sœƒ+¤ŒÔÖNJåÈžCÏ²ç=ñÆ4¶Ö>ÍE#
+------  
+[2017/08/04 10:09:40 716] transport  1442 a_complete_httpmessage  200  
+[2017/08/04 10:09:40 716] transport  1552 is_update  true  
+[2017/08/04 10:09:40 716] transport  1556 port updated  80  
+[2017/08/04 10:09:40 716] transport  1558 switch  80  
+[2017/08/04 10:09:40 716] auth       347  [trans] [id = table: 0x7f3254677ce0;;;=0===;auth] readable  
+[2017/08/04 10:09:40 716] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/04 10:09:40 716] transport  973  cached ip is confirmed  
+[2017/08/04 10:09:40 716] transport  1300 [soc] disconnect   
+[2017/08/04 10:09:40 716] auth       383  auth_json=  udata(54696208) 
+[2017/08/04 10:09:40 716] auth       384  tostring(auth_json)=  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/04 10:09:40 716] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/04 10:09:40 717] auth       404  auth ok!  
+[2017/08/04 10:09:40 807] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:40 807] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:40 807] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:40 807] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:40 967] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:40 967] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:40 967] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:40 967] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 130] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 130] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 131] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 131] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 131] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 131] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 131] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 131] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 289] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 289] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 289] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 289] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 289] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 289] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 289] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 289] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 452] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 452] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 452] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 452] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 616] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 616] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 616] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 616] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 616] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 616] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 616] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 616] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 779] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 780] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 780] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 780] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 780] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 780] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 780] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 780] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:41 930] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:41 930] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:41 930] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:41 930] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 094] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 094] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 094] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 094] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 094] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 094] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 094] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 094] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 257] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 257] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 257] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 257] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 420] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 420] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 420] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 420] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 421] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 421] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 421] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 421] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 584] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 584] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 584] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 584] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 584] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 584] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 584] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 584] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 747] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 747] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 747] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 747] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 911] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 911] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 911] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 911] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:42 911] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:42 911] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:42 911] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:42 911] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 074] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:43 074] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:43 074] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:43 074] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 210] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:43 210] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:43 210] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:43 210] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 211] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:43 211] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:43 211] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:43 211] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 374] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:43 374] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:43 374] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:43 374] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 538] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:43 538] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:43 538] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:43 538] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 538] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:43 538] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:43 538] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:43 538] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 702] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:43 702] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:43 702] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:43 702] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 702] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:43 702] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:43 702] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:43 702] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 866] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:43 866] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:43 866] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:43 866] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:43 867] isr_local  675  recognized end!  
+[2017/08/04 10:09:44 030] isr_local  2140 ASR_LOCAL_MSG_SSE  
+[2017/08/04 10:09:44 030] isr_local  1518 esr_session_end | esr_obj:stop ret =  0  
+[2017/08/04 10:09:44 030] isr_local  2142 esr_session_end, ret =  0  
+[2017/08/04 10:09:44 031] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:44 031] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:44 031] isr_local  601  audio buffered :   udata(54697bd8) 2  
+[2017/08/04 10:09:44 031] isr_local  2265 last gc at  1501812580  
+[2017/08/04 10:09:44 067] isr_local  638  local engine already stopped! stop cmd ignored  
+[2017/08/04 10:09:46 585] isr_local  2182 SYS_MSG_SHUTDOWN_LOCAL  
+[2017/08/04 10:09:46 636] isr_local  2265 last gc at  1501812580  
+============================================================
+Time  2017/08/04 10:09:58 214 
+============================================================
+[2017/08/04 10:09:58 214] isr_local  2168 os_type is:  Linux  
+[2017/08/04 10:09:58 214] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2017/08/04 10:09:58 214] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:58 214] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2017/08/04 10:09:58 214] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:58 214] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2017/08/04 10:09:58 214] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:58 214] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2017/08/04 10:09:58 214] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/04 10:09:58 214] isr_local  803  engine_type  :  local  
+[2017/08/04 10:09:58 214] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/04 10:09:58 214] isr_local  803  sample_rate  :  16000  
+[2017/08/04 10:09:58 214] isr_local  803  asr_threshold  :  40  
+[2017/08/04 10:09:58 214] isr_local  803  asr_denoise  :  1  
+[2017/08/04 10:09:58 214] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/04 10:09:58 214] isr_local  803  local_grammar  :  goto  
+[2017/08/04 10:09:58 214] isr_local  803  result_type  :  json  
+[2017/08/04 10:09:58 214] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/04 10:09:58 214] isr_local  1280 init aitalk in ssb  
+[2017/08/04 10:09:58 214] isr_local  1162 esr_init | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/04 10:09:58 214] isr_local  803  engine_type  :  local  
+[2017/08/04 10:09:58 214] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/04 10:09:58 214] isr_local  803  sample_rate  :  16000  
+[2017/08/04 10:09:58 214] isr_local  803  asr_threshold  :  40  
+[2017/08/04 10:09:58 214] isr_local  803  asr_denoise  :  1  
+[2017/08/04 10:09:58 214] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/04 10:09:58 214] isr_local  803  local_grammar  :  goto  
+[2017/08/04 10:09:58 214] isr_local  803  result_type  :  json  
+[2017/08/04 10:09:58 214] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/04 10:09:58 214] isr_local  1083  lucEsr.new   
+[2017/08/04 10:09:58 214] isr_local  1000 file count =   1  
+[2017/08/04 10:09:58 214] isr_local  923  file open type is:   fo  
+[2017/08/04 10:09:58 214] isr_local  956  res/asr/common.jet  0  0  
+[2017/08/04 10:09:58 214] isr_local  1018 speech_plus_setting  0  
+[2017/08/04 10:09:58 214] isr_local  1031 2  nil  res/asr/common.jet  0  0  
+[2017/08/04 10:09:58 214] isr_local  1033 res_ver  2  
+[2017/08/04 10:09:58 215] isr_local  1034 res 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/04 10:09:58 215] isr_local  1035 res_new_old_mark  v5pp  
+[2017/08/04 10:09:58 215] isr_local  1036 res_usr_name    
+[2017/08/04 10:09:58 215] isr_local  1037 res_expires  1504779145  
+[2017/08/04 10:09:58 215] isr_local  1038 err  0  
+[2017/08/04 10:09:58 215] isr_local  1054 lgi appid 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/04 10:09:58 215] isr_local  1069 now expires:  1501812598  1504779145  
+[2017/08/04 10:09:58 215] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/04 10:09:58 215] auth       312  nil  
+[2017/08/04 10:09:58 217] isr_local  1294 authorized_aitalk=  nil  
+[2017/08/04 10:09:58 217] isr_local  1295 forbid_aitalk=  0  
+[2017/08/04 10:09:58 217] auth       570  aitalk  table(50daf5a0) nil  nil  appid = 5982f5e2  
+[2017/08/04 10:09:58 217] auth       579  app  nil  nil  nil  
+[2017/08/04 10:09:58 217] auth       636  ath rquest  {"authorize":[{"busin":"aitalk","ver":"2.1.1"}]}  
+[2017/08/04 10:09:58 218] transport  658  paramkvsport is   nil  
+[2017/08/04 10:09:58 218] transport  666  ns_enable=  1  
+[2017/08/04 10:09:58 218] transport  710  url.full=  nil  
+[2017/08/04 10:09:58 218] transport  887  switch 80  
+[2017/08/04 10:09:58 218] transport  898  net type:  standard  
+[2017/08/04 10:09:58 218] transport  899  net operator:  def  
+[2017/08/04 10:09:58 218] transport  900  use proxy:  false  
+[2017/08/04 10:09:58 218] auth       691  not login!  
+[2017/08/04 10:09:58 218] auth       528  [session] send auth request  
+[2017/08/04 10:09:58 218] transport  1033 session.domain=  open.xf-yun.com  
+[2017/08/04 10:09:58 218] transport  1034 url.host=  open.xf-yun.com  
+[2017/08/04 10:09:58 218] transport  1068 NAMESERVER START  
+[2017/08/04 10:09:58 218] transport  1071 name =   ath  
+[2017/08/04 10:09:58 218] ns         629  ntt=  standard  
+[2017/08/04 10:09:58 218] transport  1074 trans,ns_inprog =  0  
+[2017/08/04 10:09:58 218] ns         585  name server start  
+[2017/08/04 10:09:58 218] ns         586  ns_sub =   ath  
+[2017/08/04 10:09:58 218] ns         588  ns_host=  open.xf-yun.com  
+[2017/08/04 10:09:58 218] ns         479  ns_host=  open.xf-yun.com  
+[2017/08/04 10:09:58 218] ns         558  GET /sip/resolver?srand=0804100911.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5982f5e2&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=51eab3e855386e9c375fa703aca0f4c6
+User-Agent: iFLYCloud
+
+  
+[2017/08/04 10:09:58 218] ns         559  net_type =  standard  
+[2017/08/04 10:09:58 218] ns         560  cmwapascmnet =  
+[2017/08/04 10:09:58 218] ns         561  uniwapasuninet =  
+[2017/08/04 10:09:58 218] ns         562  ctwapasctnet =  
+[2017/08/04 10:09:58 218] ns         579  host=  hdns.openspeech.cn  
+[2017/08/04 10:09:58 218] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2017/08/04 10:09:58 218] auth       535  0  
+[2017/08/04 10:09:58 218] auth       498  lver:  nil  
+[2017/08/04 10:09:58 218] auth       503  cfg_ver:  nil  
+[2017/08/04 10:09:58 218] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2017/08/04 10:09:58 219] isr_local  2076 commit success!  
+[2017/08/04 10:09:58 219] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2017/08/04 10:09:58 219] isr_local  2122 esr_session_begin, ret =   0  
+[2017/08/04 10:09:58 219] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:58 223] network    224  dns resp  0  ns1  
+[2017/08/04 10:09:58 223] ns         425  ns dns ok  117.121.56.5  
+[2017/08/04 10:09:58 223] ns         205  iplist not avail  
+[2017/08/04 10:09:58 223] ns         432  is_voicecloud_ip=  0  
+[2017/08/04 10:09:58 223] ns         439  ip_is_expected=  true  
+[2017/08/04 10:09:58 223] ns         447  ip_is_expected=  true  
+[2017/08/04 10:09:58 223] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2017/08/04 10:09:58 223] network    440  prot_type  tcp  
+[2017/08/04 10:09:58 228] transport  142  [dns] [1] response 117.121.21.146  
+[2017/08/04 10:09:58 228] transport  152  117  121  21  146  
+[2017/08/04 10:09:58 228] transport  203  ipv =  v4  
+[2017/08/04 10:09:58 228] transport  207  dns ip is v4  
+[2017/08/04 10:09:58 228] transport  181  iplist not avail  
+[2017/08/04 10:09:58 229] transport  247  no iplist now  
+[2017/08/04 10:09:58 229] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/04 10:09:58 229] transport  291  dns cb start conn  
+[2017/08/04 10:09:58 229] transport  1266 [soc] connect   117.121.21.146  80  
+[2017/08/04 10:09:58 229] transport  1283 mspsoc.open,prot_type=  tcp  
+[2017/08/04 10:09:58 254] network    328  connected  ns2  
+[2017/08/04 10:09:58 254] network    331  send ok  271  ns2  
+[2017/08/04 10:09:58 284] transport  476  [soc] [1] connected  
+[2017/08/04 10:09:58 284] transport  1323 build http request.  
+[2017/08/04 10:09:58 285] transport  1423 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 334
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:51
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08cywn9mPsmT8=
+----
+CL:48
+CT:text/appinfo
+CE:gzip
+
+36
+xœËN­´MNN2015LJK346MM¶LM6IINMJ²HLK±4N1  
+[2017/08/04 10:09:58 285] transport  1743 msg:release()  
+[2017/08/04 10:09:58 285] transport  506  [soc] [1] send ok  507  
+[2017/08/04 10:09:58 295] network    340  readable  ns2  
+[2017/08/04 10:09:58 295] network    344  HTTP/1.1 200 OK
+Date: Fri, 04 Aug 2017 02:09:58 GMT
+Content-Type: application/json
+Content-Length: 406
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.147","port":80,"idc":"ch"},{"ip":"117.121.21.149","port":1028,"idc":"ch"},{"ip":"116.213.69.201","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.146","port":80,"idc":"ch"},{"ip":"117.121.21.147","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
+[2017/08/04 10:09:58 295] ns         256  name server http resp  table(50dafc60) 0  udata(500a2558) 
+[2017/08/04 10:09:58 295] ns         269  ns response OK for this time!  
+[2017/08/04 10:09:58 295] ns         280  from_server=  iflytek/hdns  
+[2017/08/04 10:09:58 296] ns         363  compel :  0  
+[2017/08/04 10:09:58 296] ns         374  tick()=  66571  
+[2017/08/04 10:09:58 296] ns         378  tick()mod=  66571  
+[2017/08/04 10:09:58 296] ns         379  ns_host=  open.xf-yun.com  
+[2017/08/04 10:09:58 297] ns         392  ns_host=  open.xf-yun.com  
+[2017/08/04 10:09:58 297] transport  1048 ns_ip =   117.121.21.147  
+[2017/08/04 10:09:58 297] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
+[2017/08/04 10:09:58 297] ns         658  no data in ns_q  
+[2017/08/04 10:09:58 297] ns         659  conti_ns,ns_inprog =   1  
+[2017/08/04 10:09:58 319] isr_local  655  local engine ready  
+[2017/08/04 10:09:58 319] isr_local  585  esr_flush_buf_audio buffer audio num:  0  
+[2017/08/04 10:09:58 320] isr_local  630  local engine started  
+[2017/08/04 10:09:58 338] transport  518  [soc] [1] readable  
+[2017/08/04 10:09:58 338] transport  1696 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 286
+X-Req-Date: 2017/08/04 10:09:58 249
+Cache-Control: no-cache
+CL: 286
+X-Res-Date: 2017/08/04 10:09:58 267
+
+----
+Content-Length:83
+
+ver=MSSP+0%2E9&ret=0&key=09veQ3BKa9CQaIqF/WEwCj2YBFxwAGcwzC4JfpntROcgIWT/EOrO25Lw==
+----
+Content-Length:86
+Content-Type:binary/authinfo
+Content-Encoding:gzip
+
+79
+xœÊK
+€ Ð½Ü±-Ez›	EƒGöÁ,qïÙôp*—VPÅ3ü}ýß“sœƒ+¤ŒÔÖNJåÈžCÏ²ç=ñÆ4¶Ö>ÍE#
+------  
+[2017/08/04 10:09:58 338] transport  1442 a_complete_httpmessage  200  
+[2017/08/04 10:09:58 338] transport  1552 is_update  true  
+[2017/08/04 10:09:58 338] transport  1556 port updated  80  
+[2017/08/04 10:09:58 338] transport  1558 switch  80  
+[2017/08/04 10:09:58 338] auth       347  [trans] [id = table: 0x7f3250daf6a0;;;=0===;auth] readable  
+[2017/08/04 10:09:58 339] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  117.121.21.146  
+[2017/08/04 10:09:58 339] transport  973  cached ip is confirmed  
+[2017/08/04 10:09:58 339] transport  1300 [soc] disconnect   
+[2017/08/04 10:09:58 339] auth       383  auth_json=  udata(50dafc88) 
+[2017/08/04 10:09:58 339] auth       384  tostring(auth_json)=  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/04 10:09:58 339] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/04 10:09:58 339] auth       404  auth ok!  
+[2017/08/04 10:09:58 446] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:58 446] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:58 446] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:58 446] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:58 606] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:58 606] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:58 606] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:58 606] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:58 769] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:58 769] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:58 770] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:58 770] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:58 770] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:58 770] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:58 770] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:58 770] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:58 927] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:58 927] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:58 927] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:58 927] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:58 927] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:58 927] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:58 927] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:58 927] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:59 090] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:59 090] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:59 090] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:59 090] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:59 254] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:59 254] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:59 254] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:59 254] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:59 254] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:59 254] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:59 254] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:59 254] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:59 417] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:59 417] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:59 417] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:59 417] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:59 417] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:59 418] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:59 418] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:59 418] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:59 567] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:59 567] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:59 567] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:59 567] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:59 731] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:59 731] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:59 731] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:59 731] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:59 731] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:59 731] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:59 731] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:59 731] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:09:59 894] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:09:59 894] isr_local  1558 auwl =   3200  
+[2017/08/04 10:09:59 894] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:09:59 894] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 058] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 058] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 058] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 058] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 058] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 058] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 058] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 058] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 220] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 220] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 220] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 220] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 221] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 221] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 221] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 221] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 384] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 384] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 384] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 384] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 547] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 547] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 547] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 547] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 548] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 548] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 548] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 548] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 711] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 711] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 711] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 711] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 848] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 848] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 848] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 848] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:00 848] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:00 848] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:00 848] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:00 848] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:01 011] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:01 011] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:01 011] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:01 011] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:01 175] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:01 175] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:01 175] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:01 175] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:01 175] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:01 175] isr_local  1558 auwl =   3200  
+[2017/08/04 10:10:01 175] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:01 175] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:01 175] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 10:10:01 175] isr_local  1558 auwl =   320  
+[2017/08/04 10:10:01 175] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 10:10:01 175] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:01 189] isr_local  669  final result will throw out next!  
+[2017/08/04 10:10:01 189] isr_local  679  nRecognizeState:  1  
+[2017/08/04 10:10:01 189] isr_local  680  nConfidenceScore:  0  
+[2017/08/04 10:10:01 189] isr_local  728  result_type :   json  
+[2017/08/04 10:10:01 189] isr_local  729  result_encoding :   UTF-8  
+[2017/08/04 10:10:01 189] isr_local  730  is iat :   true  
+[2017/08/04 10:10:01 189] isr_local  771  no recognized result!  
+[2017/08/04 10:10:01 189] isr_local  675  recognized end!  
+[2017/08/04 10:10:01 339] isr_local  2140 ASR_LOCAL_MSG_SSE  
+[2017/08/04 10:10:01 339] isr_local  1518 esr_session_end | esr_obj:stop ret =  0  
+[2017/08/04 10:10:01 339] isr_local  2142 esr_session_end, ret =  0  
+[2017/08/04 10:10:01 340] isr_local  2265 last gc at  1501812598  
+[2017/08/04 10:10:01 389] isr_local  638  local engine already stopped! stop cmd ignored  
+[2017/08/04 10:10:04 214] isr_local  2182 SYS_MSG_SHUTDOWN_LOCAL  
+[2017/08/04 10:10:04 265] isr_local  2265 last gc at  1501812598  
+============================================================
+Time  2017/08/04 11:22:44 058 
+============================================================
+[2017/08/04 11:22:44 058] isr_local  2168 os_type is:  Linux  
+[2017/08/04 11:22:44 058] isr_local  2177 SYS_MSG_LOAD_LOCAL  
+[2017/08/04 11:22:44 058] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 058] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2017/08/04 11:22:44 058] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 059] isr_local  2206 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2017/08/04 11:22:44 059] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 059] isr_local  2114 ASR_LOCAL_MSG_SSB  
+[2017/08/04 11:22:44 059] isr_local  1251 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/04 11:22:44 059] isr_local  803  engine_type  :  local  
+[2017/08/04 11:22:44 059] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/04 11:22:44 059] isr_local  803  sample_rate  :  16000  
+[2017/08/04 11:22:44 059] isr_local  803  asr_threshold  :  40  
+[2017/08/04 11:22:44 059] isr_local  803  asr_denoise  :  1  
+[2017/08/04 11:22:44 059] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/04 11:22:44 059] isr_local  803  local_grammar  :  goto  
+[2017/08/04 11:22:44 059] isr_local  803  result_type  :  json  
+[2017/08/04 11:22:44 059] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/04 11:22:44 059] isr_local  1280 init aitalk in ssb  
+[2017/08/04 11:22:44 059] isr_local  1162 esr_init | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,asr_threshold=40,asr_denoise=1,grm_build_path=res/asr/GrmBuilld,local_grammar=goto,result_type=json,result_encoding=UTF-8  
+[2017/08/04 11:22:44 059] isr_local  803  engine_type  :  local  
+[2017/08/04 11:22:44 059] isr_local  803  asr_res_path  :  fo|res/asr/common.jet  
+[2017/08/04 11:22:44 059] isr_local  803  sample_rate  :  16000  
+[2017/08/04 11:22:44 059] isr_local  803  asr_threshold  :  40  
+[2017/08/04 11:22:44 059] isr_local  803  asr_denoise  :  1  
+[2017/08/04 11:22:44 059] isr_local  803  grm_build_path  :  res/asr/GrmBuilld  
+[2017/08/04 11:22:44 059] isr_local  803  local_grammar  :  goto  
+[2017/08/04 11:22:44 059] isr_local  803  result_type  :  json  
+[2017/08/04 11:22:44 059] isr_local  803  result_encoding  :  UTF-8  
+[2017/08/04 11:22:44 059] isr_local  1083  lucEsr.new   
+[2017/08/04 11:22:44 059] isr_local  1000 file count =   1  
+[2017/08/04 11:22:44 059] isr_local  923  file open type is:   fo  
+[2017/08/04 11:22:44 059] isr_local  956  res/asr/common.jet  0  0  
+[2017/08/04 11:22:44 059] isr_local  1018 speech_plus_setting  0  
+[2017/08/04 11:22:44 059] isr_local  1031 2  nil  res/asr/common.jet  0  0  
+[2017/08/04 11:22:44 059] isr_local  1033 res_ver  2  
+[2017/08/04 11:22:44 059] isr_local  1034 res 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/04 11:22:44 059] isr_local  1035 res_new_old_mark  v5pp  
+[2017/08/04 11:22:44 059] isr_local  1036 res_usr_name    
+[2017/08/04 11:22:44 059] isr_local  1037 res_expires  1504779145  
+[2017/08/04 11:22:44 059] isr_local  1038 err  0  
+[2017/08/04 11:22:44 059] isr_local  1054 lgi appid 5  760fc174862977b4a632ef60b5aafc77  
+[2017/08/04 11:22:44 059] isr_local  1069 now expires:  1501816964  1504779145  
+[2017/08/04 11:22:44 059] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/04 11:22:44 059] auth       312  nil  
+[2017/08/04 11:22:44 064] isr_local  1294 authorized_aitalk=  nil  
+[2017/08/04 11:22:44 064] isr_local  1295 forbid_aitalk=  0  
+[2017/08/04 11:22:44 064] auth       570  aitalk  table(80677bd0) nil  nil  appid = 5982f5e2  
+[2017/08/04 11:22:44 064] auth       579  app  nil  nil  nil  
+[2017/08/04 11:22:44 064] auth       636  ath rquest  {"authorize":[{"busin":"aitalk","ver":"2.1.1"}]}  
+[2017/08/04 11:22:44 064] transport  658  paramkvsport is   nil  
+[2017/08/04 11:22:44 064] transport  666  ns_enable=  1  
+[2017/08/04 11:22:44 064] transport  710  url.full=  nil  
+[2017/08/04 11:22:44 064] transport  887  switch 80  
+[2017/08/04 11:22:44 064] transport  898  net type:  standard  
+[2017/08/04 11:22:44 064] transport  899  net operator:  def  
+[2017/08/04 11:22:44 064] transport  900  use proxy:  false  
+[2017/08/04 11:22:44 064] auth       691  not login!  
+[2017/08/04 11:22:44 064] auth       528  [session] send auth request  
+[2017/08/04 11:22:44 064] transport  1033 session.domain=  open.xf-yun.com  
+[2017/08/04 11:22:44 064] transport  1034 url.host=  open.xf-yun.com  
+[2017/08/04 11:22:44 064] transport  1068 NAMESERVER START  
+[2017/08/04 11:22:44 064] transport  1071 name =   ath  
+[2017/08/04 11:22:44 064] ns         629  ntt=  standard  
+[2017/08/04 11:22:44 064] transport  1074 trans,ns_inprog =  0  
+[2017/08/04 11:22:44 064] ns         585  name server start  
+[2017/08/04 11:22:44 064] ns         586  ns_sub =   ath  
+[2017/08/04 11:22:44 064] ns         588  ns_host=  open.xf-yun.com  
+[2017/08/04 11:22:44 064] ns         479  ns_host=  open.xf-yun.com  
+[2017/08/04 11:22:44 065] ns         558  GET /sip/resolver?srand=0804112211.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.3&appid=5982f5e2&operator=UNKNOW&nettype=STANDARD&cver=5.0.33.1158&svc=ath&host=open.xf-yun.com&sign=d0e1a050fb5dc7a669d6f25992331181
+User-Agent: iFLYCloud
+
+  
+[2017/08/04 11:22:44 065] ns         559  net_type =  standard  
+[2017/08/04 11:22:44 065] ns         560  cmwapascmnet =  
+[2017/08/04 11:22:44 065] ns         561  uniwapasuninet =  
+[2017/08/04 11:22:44 065] ns         562  ctwapasctnet =  
+[2017/08/04 11:22:44 065] ns         579  host=  hdns.openspeech.cn  
+[2017/08/04 11:22:44 065] network    242  gethostbyname  hdns.openspeech.cn  ns1  
+[2017/08/04 11:22:44 065] auth       535  0  
+[2017/08/04 11:22:44 065] auth       498  lver:  nil  
+[2017/08/04 11:22:44 065] auth       503  cfg_ver:  nil  
+[2017/08/04 11:22:44 065] isr_local  2038 commit path:   res/asr/GrmBuilld/temp/commit  
+[2017/08/04 11:22:44 066] isr_local  2076 commit success!  
+[2017/08/04 11:22:44 066] isr_local  1409 esr_session_begin | esr_obj:start ret =  0  
+[2017/08/04 11:22:44 066] isr_local  2122 esr_session_begin, ret =   0  
+[2017/08/04 11:22:44 066] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 070] network    224  dns resp  0  ns1  
+[2017/08/04 11:22:44 070] ns         425  ns dns ok  117.121.56.5  
+[2017/08/04 11:22:44 070] ns         205  iplist not avail  
+[2017/08/04 11:22:44 071] ns         432  is_voicecloud_ip=  0  
+[2017/08/04 11:22:44 071] ns         439  ip_is_expected=  true  
+[2017/08/04 11:22:44 071] ns         447  ip_is_expected=  true  
+[2017/08/04 11:22:44 071] network    423  gethttpresp2  117.121.56.5  80  ns2  
+[2017/08/04 11:22:44 071] network    440  prot_type  tcp  
+[2017/08/04 11:22:44 078] transport  142  [dns] [1] response 116.213.69.201  
+[2017/08/04 11:22:44 078] transport  152  116  213  69  201  
+[2017/08/04 11:22:44 078] transport  203  ipv =  v4  
+[2017/08/04 11:22:44 078] transport  207  dns ip is v4  
+[2017/08/04 11:22:44 078] transport  181  iplist not avail  
+[2017/08/04 11:22:44 078] transport  247  no iplist now  
+[2017/08/04 11:22:44 078] network    93   iptoenv ,  ipcache  open.xf-yun.com  def  116.213.69.201  
+[2017/08/04 11:22:44 078] transport  291  dns cb start conn  
+[2017/08/04 11:22:44 078] transport  1266 [soc] connect   116.213.69.201  80  
+[2017/08/04 11:22:44 078] transport  1283 mspsoc.open,prot_type=  tcp  
+[2017/08/04 11:22:44 100] network    328  connected  ns2  
+[2017/08/04 11:22:44 101] network    331  send ok  271  ns2  
+[2017/08/04 11:22:44 132] transport  476  [soc] [1] connected  
+[2017/08/04 11:22:44 132] transport  1323 build http request.  
+[2017/08/04 11:22:44 132] transport  1423 POST /msp.do HTTP/1.1
+Host: open.xf-yun.com
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 334
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:51
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&key=08cywn9mPsmT8=
+----
+CL:48
+CT:text/appinfo
+CE:gzip
+
+36
+xœËN­´MNN2015LJK346MM¶LM6IINMJ²HLK±4N1  
+[2017/08/04 11:22:44 133] transport  1743 msg:release()  
+[2017/08/04 11:22:44 133] transport  506  [soc] [1] send ok  507  
+[2017/08/04 11:22:44 142] network    340  readable  ns2  
+[2017/08/04 11:22:44 142] network    344  HTTP/1.1 200 OK
+Date: Fri, 04 Aug 2017 03:22:44 GMT
+Content-Type: application/json
+Content-Length: 408
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.149","port":1028,"idc":"ch"},{"ip":"116.213.69.201","port":80,"idc":"ch"},{"ip":"117.121.21.146","port":80,"idc":"ch"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"117.121.21.147","port":80,"idc":"ch"},{"ip":"117.121.21.149","port":1028,"idc":"ch"}],"ttl":6000,"compel":0}]}]}  
+[2017/08/04 11:22:44 143] ns         256  name server http resp  table(8004b520) 0  udata(80059d98) 
+[2017/08/04 11:22:44 143] ns         269  ns response OK for this time!  
+[2017/08/04 11:22:44 143] ns         280  from_server=  iflytek/hdns  
+[2017/08/04 11:22:44 144] ns         363  compel :  0  
+[2017/08/04 11:22:44 144] ns         374  tick()=  4432418  
+[2017/08/04 11:22:44 144] ns         378  tick()mod=  4432418  
+[2017/08/04 11:22:44 144] ns         379  ns_host=  open.xf-yun.com  
+[2017/08/04 11:22:44 144] ns         392  ns_host=  open.xf-yun.com  
+[2017/08/04 11:22:44 144] transport  1048 ns_ip =   117.121.21.149  
+[2017/08/04 11:22:44 144] transport  1049 ip_type =  assigned_athopen.xf-yun.com_host  
+[2017/08/04 11:22:44 144] ns         658  no data in ns_q  
+[2017/08/04 11:22:44 144] ns         659  conti_ns,ns_inprog =   1  
+[2017/08/04 11:22:44 166] isr_local  655  local engine ready  
+[2017/08/04 11:22:44 166] isr_local  585  esr_flush_buf_audio buffer audio num:  0  
+[2017/08/04 11:22:44 166] isr_local  630  local engine started  
+[2017/08/04 11:22:44 187] transport  518  [soc] [1] readable  
+[2017/08/04 11:22:44 187] transport  1696 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 286
+X-Req-Date: 2017/08/04 11:22:44 56
+Cache-Control: no-cache
+CL: 286
+X-Res-Date: 2017/08/04 11:22:44 71
+
+----
+Content-Length:83
+
+ver=MSSP+0%2E9&ret=0&key=09xJHZyyJ3TVaQL8R716hZGZU3sL9BFXfYy9dzkjjJ1p8WT/EOrO25Lw==
+----
+Content-Length:86
+Content-Type:binary/authinfo
+Content-Encoding:gzip
+
+79
+xœÊK
+€ Ð½Ü±-Ez›	EƒGöÁ,qïÙôp*—VPÅ3ü}ýß“sœƒ+¤ŒÔÖNJåÈžCÏ²ç=ñÆ4¶Ö>ÍE#
+------  
+[2017/08/04 11:22:44 187] transport  1442 a_complete_httpmessage  200  
+[2017/08/04 11:22:44 187] transport  1552 is_update  true  
+[2017/08/04 11:22:44 187] transport  1556 port updated  80  
+[2017/08/04 11:22:44 187] transport  1558 switch  80  
+[2017/08/04 11:22:44 187] auth       347  [trans] [id = table: 0x7f0980677cd0;;;=0===;auth] readable  
+[2017/08/04 11:22:44 188] network    88   ipfromenv ,  ipcache  open.xf-yun.com  def  116.213.69.201  
+[2017/08/04 11:22:44 188] transport  973  cached ip is confirmed  
+[2017/08/04 11:22:44 188] transport  1300 [soc] disconnect   
+[2017/08/04 11:22:44 188] auth       383  auth_json=  udata(8001d158) 
+[2017/08/04 11:22:44 188] auth       384  tostring(auth_json)=  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/04 11:22:44 188] auth       74   aitalk  app  nil  nil  {"aitalk":{"ver":"2","bus":{"expire_date":1504779145,"forbid":"0","nlimit":3}}}  
+[2017/08/04 11:22:44 188] auth       404  auth ok!  
+[2017/08/04 11:22:44 251] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:44 251] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:44 251] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:44 251] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 359] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:44 359] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:44 359] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:44 359] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 459] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:44 459] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:44 459] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:44 459] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 568] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:44 568] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:44 568] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:44 568] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 676] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:44 676] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:44 676] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:44 676] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 793] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:44 793] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:44 793] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:44 793] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:44 900] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:44 900] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:44 900] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:44 900] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:45 008] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:45 008] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:45 008] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:45 008] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:45 117] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:45 117] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:45 117] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:45 117] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:45 225] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:45 225] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:45 225] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:45 225] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:45 329] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:45 329] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:45 329] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:45 329] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:45 437] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:45 437] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:45 437] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:45 437] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:45 546] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:45 546] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:45 546] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:45 546] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:45 654] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:45 654] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:45 654] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:45 654] isr_local  2265 last gc at  1501816964  
+[2017/08/04 11:22:45 655] isr_local  2126 ASR_LOCAL_MSG_AUW  
+[2017/08/04 11:22:45 655] isr_local  1558 auwl =   3200  
+[2017/08/04 11:22:45 655] isr_local  2135 esr_audio_write, ret =  nil  
+[2017/08/04 11:22:45 655] isr_local  2265 last gc at  1501816964  

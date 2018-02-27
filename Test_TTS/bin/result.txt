@@ -1,0 +1,1 @@
+{"rc":0,"operation":"ANSWER","service":"openQA","answer":{"type":"T","text":"我是导览机器人小迪"},"text":"你叫啥？"}

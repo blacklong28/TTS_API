@@ -1,0 +1,30 @@
+README for asr_tts_awake 统一接口
+--------------------------------
+文件说明：
+bin：
+|--msc:
+    |--res（语音功能资源文件夹)
+        |--asr(离线命令词识别资源文件)
+        |--ivw(语音唤醒资源文件)
+        |--tts(语音合成资源文件)
+    |--asr_tts_awake.h(接口头文件)
+
+libs：（libtts.so只编译了64位动态库）
+|-- x86
+	|-- libmsc.so（32位动态库）
+|-- x64
+    |-- libmsc.so（64位动态库）
+    |-- libtts.so(重新封装后提供的统一语音功能接口)
+
+doc:(文档)
+|--wordlist.txt(唤醒词汇)
+|--BNF Grammar Development Manual.pdf（BNF语法说明文档）
+
+
+
+注意事项：
+1、将生成或提供的libtts.so、libmsc.so放到/lib/路径；语音功能资源文件夹(res)放到自己生成的可执行文件的同级目录下。
+2、测试程序test（调用ttst统一接口） 编译命令：sudo gcc main.c -L. -ltts  -lm  -lpthread -lmsc -lasound -o test
+3、离线命令词识别功能接口调用需要自行创建语法文件（.bnf），语法文件放在可执行文件同级目录下。
+
+
